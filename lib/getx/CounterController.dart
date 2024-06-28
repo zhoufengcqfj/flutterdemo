@@ -7,5 +7,11 @@ class CounterController extends GetxController {
     count++;
     update();
   }
+
+  @override
+  void onInit() {
+    // TODO: implement onInit
+    super.onInit();
+  }
 }
 
