@@ -1,0 +1,14 @@
+{
+  "description": "测试import",
+  "method": "POST",
+  "url": "/test/requestImport",
+  "import": {
+    "FileSpec": "package:dartpoet/dartpoet.dart",
+    "PropertySpec": "package:dartpoet/dartpoet.dart"
+  },
+  "request": "[FileSpec] fileInfo",
+  "response": "[FileSpec] response fileInfo",
+  "urlParam": {
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "description": "测试列表参数",
+  "method": "GET",
+  "url": "/test/paramEmpty",
+  "import": {
+    "FileSpec": "package:dartpoet/dartpoet.dart",
+    "PropertySpec": "package:dartpoet/dartpoet.dart"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "request": {
+  },
+  "response": {
+    "devices": [
+      "设备信息，参见protojson/bean/TreeDeviceInfo.json"
+    ]
+  },
+  "urlParam": {
+  }
+}
+

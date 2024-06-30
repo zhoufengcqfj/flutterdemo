@@ -1,0 +1,19 @@
+{
+  "description": "退出登陆",
+  "method": "delete",
+  "url": "/gateway/auth/oauth/revokeToken",
+  "request":{
+
+  },
+  "response": {
+    "code": "状态码",
+    "errMsg":"返回提示消息",
+    "success":"[boolean]是否成功"
+  },
+  "urlParam": {
+    "access_token": "token",
+    "clientType": "[int]clientType",
+    "uniqueCode": "uniqueCode",
+    "appType": "[int]appType"
+  }
+}

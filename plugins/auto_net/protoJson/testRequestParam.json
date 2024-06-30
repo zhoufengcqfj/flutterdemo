@@ -1,0 +1,22 @@
+{
+  "description": "测试request参数",
+  "method": "POST",
+  "url": "/test/requestParam",
+  "import": {
+    "FileSpec": "package:dartpoet/dartpoet.dart",
+    "PropertySpec": "package:dartpoet/dartpoet.dart"
+  },
+  "request": {
+    "requestParam": "param1"
+  },
+  "response": {
+    "devices": [
+      "设备信息，参见protojson/bean/TreeDeviceInfo.json"
+    ]
+  },
+  "urlParam": {
+    "page": "页数",
+    "pageSize": "每页个数"
+  }
+}
+

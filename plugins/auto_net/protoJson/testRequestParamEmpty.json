@@ -1,0 +1,21 @@
+{
+  "description": "测试request参数request为空",
+  "method": "GET",
+  "url": "/test/requestParamEmpty",
+  "import": {
+    "FileSpec": "package:dartpoet/dartpoet.dart",
+    "PropertySpec": "package:dartpoet/dartpoet.dart"
+  },
+  "request": {
+  },
+  "response": {
+    "devices": [
+      "设备信息，参见protojson/bean/TreeDeviceInfo.json"
+    ]
+  },
+  "urlParam": {
+    "page": "页数",
+    "pageSize": "每页个数"
+  }
+}
+

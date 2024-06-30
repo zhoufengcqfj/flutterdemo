@@ -1,0 +1,30 @@
+{
+  "description": "测试列表参数",
+  "method": "POST",
+  "url": "/test/requestArr",
+  "import": {
+    "FileSpec": "package:dartpoet/dartpoet.dart",
+    "PropertySpec": "package:dartpoet/dartpoet.dart"
+  },
+  "request": [
+    {
+      "orgCode": "组织节点OrgCode",
+      "deviceCodes": [
+        "设备编码，如果为空，则表示获取所有设备"
+      ],
+      "categories": [
+        "设备大类：1.编码器；2.解码器；4.大屏；5.卡口；6.矩阵"
+      ],
+      "fileSpec": "[FileSpec] 外部依赖bean",
+      "propertySpec": "[PropertySpec] 外部依赖bean"
+    }
+  ],
+  "response": {
+    "devices": [
+      "设备信息，参见protojson/bean/TreeDeviceInfo.json"
+    ]
+  },
+  "urlParam": {
+  }
+}
+
