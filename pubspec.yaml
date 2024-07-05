@@ -38,6 +38,7 @@ dependencies:
   provider: ^6.1.2
   get: ^4.6.6
   json_annotation: ^4.9.0 # 请检查最新版本
+  umeng_common_sdk: ^1.2.7
 
 
 
